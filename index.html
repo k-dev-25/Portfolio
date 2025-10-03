@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./logo.png" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="./logo.png" alt="logo" class="logo-image" />
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-shapes">
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-triangle"></div>
+        <div class="shape shape-square"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Hello! I am Kushal Kankarwal</h1>
+        <h2>First Year CS Student | Aspiring Developer | Problem Solver</h2>
+        <p class="hero-text">
+          Welcome to my portfolio. I enjoy building simple and interactive web
+          projects as I explore coding fundamentals.
+        </p>
+        <a href="#projects" class="cta-button">Explore Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-left">
+            <div class="profile-photo">
+              <img src="./Photo.jpg" alt="Profile Photo" />
+            </div>
+          </div>
+          <div class="about-right">
+            <div class="about-text">
+              <p>
+                I'm a first-year Computer Science student with a passion for
+                learning and building innovative solutions. Currently exploring
+                various programming languages and web technologies.
+              </p>
+              <p>
+                My journey in computer science has just begun, and I'm excited
+                to develop my skills in software development, problem-solving,
+                and creating meaningful projects.
+              </p>
+            </div>
+            <div class="about-stats">
+              <div class="stat-box stat-pink">
+                <div class="stat-icon">●</div>
+                <h3>2025</h3>
+                <p>Started Journey</p>
+              </div>
+              <div class="stat-box stat-mint">
+                <div class="stat-icon">▲</div>
+                <h3>3+</h3>
+                <p>Projects Done</p>
+              </div>
+              <div class="stat-box stat-white">
+                <div class="stat-icon">■</div>
+                <h3>1+</h3>
+                <p>Tech Stack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">◆</div>
+            <h3>HTML5</h3>
+            <p>Semantic markup, forms, tables, and structured content</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">●</div>
+            <h3>CSS3</h3>
+            <p>Styling, animations, flexbox, grid layouts</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">▲</div>
+            <h3>Python</h3>
+            <p>Basic programming, data structures, algorithms</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">■</div>
+            <h3>C/C++</h3>
+            <p>Programming fundamentals and problem-solving</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">◆</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and collaboration</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">●</div>
+            <h3>Problem Solving</h3>
+            <p>Logical thinking and algorithmic approach</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive portfolio showcasing my work using HTML, CSS with
+              Flexbox and Grid layouts.
+            </p>
+            <ul class="project-tech">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Responsive Design</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>AI powered Hand gesture Game control</h3>
+            <p>
+              An interactive way to play a game with Hand gestures with the help
+              of AI.
+            </p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>AI</li>
+              <li>Open CV</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Guess the number</h3>
+            <p>
+              Guess the number through terminal between 1 to 100 made in C++
+            </p>
+            <ul class="project-tech">
+              <li>C++</li>
+              <li>Unix commands</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <h3>Registration Form</h3>
+            <p>
+              A complete registration form with validation using HTML forms and
+              CSS styling.
+            </p>
+            <ul class="project-tech">
+              <li>HTML Forms</li>
+              <li>CSS</li>
+              <li>Form Validation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message ▶</button>
+          </form>
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>
+              Feel free to reach out for collaborations, questions, or just to
+              connect!
+            </p>
+            <table class="contact-table">
+              <tr>
+                <td>● Email:</td>
+                <td>
+                  <a
+                    href="mailto:kdev400625@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >kdev400625@gmail.com</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>▲ LinkedIn:</td>
+                <td>
+                  <a
+                    href="https://www.linkedin.com/in/kushal-kankarwal-96105a380/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >linkedin.com/in/kushal-kankarwal</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>■ GitHub:</td>
+                <td>
+                  <a
+                    href="https://github.com/k-dev-25"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >github.com/k-dev-25</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-shapes">
+        <span>●</span>
+        <span>▲</span>
+        <span>■</span>
+        <span>◆</span>
+      </div>
+      <p>&copy; 2025 Kushal's Portfolio. Built with HTML & CSS.</p>
+    </footer>
+  </body>
+</html>
