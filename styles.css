@@ -690,6 +690,11 @@ html {
     font-size: 1.2rem;
   }
 
+  .shape-square {
+    top: 38%;
+    right: 32%;
+  }
+  
   .about-stats {
     grid-template-columns: 1fr;
   }
